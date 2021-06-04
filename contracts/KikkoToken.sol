@@ -80,7 +80,7 @@ contract KikkoToken is BEP20 {
     /**
      * @notice Constructs the KikkoToken contract.
      */
-    constructor() public BEP20("KikkoSwap Token", "KIKKO") {
+constructor() public BEP20("Kikko Token", "KIKKO") {
         _operator = _msgSender();
         emit OperatorTransferred(address(0), _operator);
 
